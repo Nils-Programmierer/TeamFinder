@@ -1,0 +1,26 @@
+{
+    "theme_color": "#d3d3d3",
+    "background_color": "#eeff00",
+    "icons": [
+        {
+            "purpose": "maskable",
+            "sizes": "512x512",
+            "src": "img/icon512_maskable.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "any",
+            "sizes": "512x512",
+            "src": "img/icon512_rounded.png",
+            "type": "image/png"
+        }
+    ],
+    "orientation": "portrait",
+    "display": "standalone",
+    "dir": "auto",
+    "lang": "de",
+    "name": "TeamFinder",
+    "short_name": "TeamFinder",
+    "start_url": "/TeamFinder/index.html",
+    "description": "TeamFinder – Ein Programm zur zufälligen Team-Erstellung. Nutzer geben eine Liste von Namen ein und wählen entweder die gewünschte Anzahl an Teams oder eine feste Teamgröße. Anschließend teilt der TeamFinder die Personen zufällig auf und gibt die Teams aus. Perfekt für Spiele, Sport oder Gruppenprojekte."
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeamFinder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon.png" type="image/png">
+    <link rel="manifest" href="manifest.json">
+    <script defer src="script.js"></script>
+</head>
+
+
+<header>
+    <div class="align-middle">
+        <img src="img/icon.png" alt="Logo" class="icon" onclick="window.location.href='index.html'">
+        <div class="headline">TeamFinder</div>
+    </div>
+</header>
+
+
+<body>
+    <div class="content">
+        <h2>Teamgröße:</h2>
+        <div class="flex">
+            <input type="number" min="2" max="50" placeholder="Anzahl" id="amount" class="teamSize">
+            <select id="teamSelect" class="select">
+                <option value="1" selected>Teams</option>
+                <option value="2">Personen pro Team</option>
+            </select>
+        </div>
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <h2>Teilnehmer:</h2>
+        <div id="participantNames">
+            <input type="text" placeholder="Teilnehmer 1" id="participant1" class="participant">
+            <br>
+            <br>
+            <input type="text" placeholder="Teilnehmer 2" id="participant2" class="participant">
+            <br>
+            <br>
+            <input type="text" placeholder="Teilnehmer 3" id="participant3" class="participant">
+            <br>
+        </div>
+        <br>
+        <button type="button" onclick="Add();" class="add-btn">+</button>
+        <br>
+
+        <button type="button" onclick="Create();" class="create">Erstellen</button>
+    </div>
+    <br>
+    <br>
+    <br>
+
+</body>
+
+
+</html>
